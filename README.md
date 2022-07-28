@@ -1,2 +1,2 @@
-# entertainment-box
-A quiz app to play at parties
+# Entertainment-box
+ A selection of quiz-like games to play at parties
