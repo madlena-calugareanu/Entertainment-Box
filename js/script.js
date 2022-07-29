@@ -1,4 +1,5 @@
 $( document ).ready(function() {
+    
 
     $('#startGameBtn').on('click', ()=>{
         $('#start').addClass('d-none');
@@ -15,6 +16,27 @@ $( document ).ready(function() {
         $('#like-dislike').hide();
         $('#nextBtn').removeClass('d-none');
     })
-    
-   
+
+    const getRandomPerson = 
+
+    $('#quizShow').on('click', ()=>{
+        getRandomPerson();
+
+    })
+
+    async function getData(){
+        try{
+          const response =  await fetch('js/quiz.json', {
+            assert: {
+                type: 'json'
+            }})
+          return response.json()
+        }catch(err){
+          return err
+        }
+    };
+
+    const jsonQuestions = getData();
+
+    console.log(jsonQuestions);
 });
