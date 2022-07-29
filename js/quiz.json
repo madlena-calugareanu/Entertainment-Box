@@ -1,24 +1,6 @@
 {
-    "people": [
-        {
-            "pernsonName": "Ana"
-        },
-        {
-            "pernsonName": "Madlena"
-        },
-        {
-            "pernsonName": "Cristi"
-        },
-        {
-            "pernsonName": "Ovidiu"
-        },
-        {
-            "pernsonName": "Oleg"
-        },
-        {
-            "pernsonName": "Iustin"
-        }
-    ],
+    "people": ["Ana", "Madlena", "Cristi", "Ovidiu", "Oleg", "Iustin"],
+        
     "questionsQuiz": [
         {
             "text": "Care este cea mai faimoasă persoană pe care ai cunoscut-o vreodată?"

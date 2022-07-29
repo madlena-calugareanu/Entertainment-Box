@@ -196,7 +196,6 @@ a {
     margin: 0;
 }
 
-#like-dislike button,
 #nextBtn button{
     height: 4rem;
     width: 100%;
@@ -205,27 +204,6 @@ a {
     letter-spacing: 0.2rem;
 }
 
-#like-dislike #likeBtn:hover{
-    background-color: rgb(44, 239, 174);
-}
-
-#like-dislike #dislikeBtn:hover{
-    background-color: rgb(227, 123, 123);
-}
-
-#likeBtn{
-    background-color: aquamarine;
-    color: white;
-    text-shadow: 1px 1px 9px #0d6c46;
-    border-radius: 0 0 0 0.5rem;
-}
-
-#dislikeBtn{
-    background-color: rgb(233, 165, 165);
-    color: white;
-    text-shadow: 1px 1px 9px #df2828;
-    border-radius: 0 0 0.5rem 0;
-}
 
 #next{
     background-color: rgb(213, 143, 235);
@@ -236,11 +214,17 @@ a {
     .card{
         width: 50%;
         height: auto;
+        text-align: center;
     }
     .modal.modal-lg{
         width: 100%;
         left: auto;
         right:auto;
+    }
+    #game .card,
+    #game .card-body,
+    #game .card-text{
+        width: 100%;
     }
 }
 

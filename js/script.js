@@ -1,5 +1,6 @@
+
 $( document ).ready(function() {
-    
+
 
     $('#startGameBtn').on('click', ()=>{
         $('#start').addClass('d-none');
@@ -9,34 +10,40 @@ $( document ).ready(function() {
     $('.card').on('click', ()=>{
         $('#chooseGame').addClass('d-none');
         $('#game').removeClass('d-none');
-        $('#like-dislike').removeClass('d-none');
+        $('#nextBtn').removeClass('d-none');
     });
 
-    $('#like-dislike').on('click', ()=>{
-        $('#like-dislike').hide();
-        $('#nextBtn').removeClass('d-none');
-    })
-
-    const getRandomPerson = 
 
     $('#quizShow').on('click', ()=>{
-        getRandomPerson();
+        document.getElementById('numeJucator').innerHTML = getRandom(people);
+        document.getElementById('question').innerHTML = getRandom(questionsQuiz);
+        $('#next').on('click', ()=>{
+            document.getElementById('numeJucator').innerHTML = getRandom(people);
+            document.getElementById('question').innerHTML = getRandom(questionsQuiz);
+        })
+    });
 
-    })
+    $('#debatable').on('click', ()=>{
+        document.getElementById('numeJucator').innerHTML = getRandom(people);
+        document.getElementById('question').innerHTML = getRandom(debatable);
+        $('#next').on('click', ()=>{
+            document.getElementById('numeJucator').innerHTML = getRandom(people);
+            document.getElementById('question').innerHTML = getRandom(debatable);
+        })
+    });
 
-    async function getData(){
-        try{
-          const response =  await fetch('js/quiz.json', {
-            assert: {
-                type: 'json'
-            }})
-          return response.json()
-        }catch(err){
-          return err
-        }
+    $('#cineAr').on('click', ()=>{
+        document.getElementById('numeJucator').innerHTML = getRandom(people);
+        document.getElementById('question').innerHTML = getRandom(cineAr);
+        $('#next').on('click', ()=>{
+            document.getElementById('numeJucator').innerHTML = getRandom(people);
+            document.getElementById('question').innerHTML = getRandom(cineAr);
+        })
+    });
+
+    
+
+    function getRandom(array){
+        return array[Math.floor(Math.random() * array.length)];
     };
-
-    const jsonQuestions = getData();
-
-    console.log(jsonQuestions);
 });
