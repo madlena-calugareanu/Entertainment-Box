@@ -1,20 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>E-box</title>
-</head>
-<body>
-    <main>
-        <div>
-            <h1>Choose your Quiz</h1>
-            <h2>Choose number of participants</h2>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css\style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <!-- Start your project here-->
+    
+    <div class="landing container-fluid">
+
+      <div id="start">
+        <img src="person playing.jpg" alt="person playing" id="person-playing">
+        <button type="button" class="btn btn-secondary btn-rounded" id="startGameBtn">Alege jocul</button>
+      </div>
+
+      <div id="chooseGame" class="container-fluid d-none">
+        <h1>Alege un joc:</h1>
+
+        <div class="card" data-mdb-toggle="modal" data-mdb-target="#cardModal">
+          <a href="#game">
+            <div class="card-body">
+              <h5 class="card-title">Quiz show</h5>
+              <p class="card-text">Răspunde la întrebări și primește puncte de la ceilalți jucători dacă răspunsul a fost bun.</p>
+            </div>
+          </a>
         </div>
-        <div>
-            Choose your players
+        <div class="card" data-mdb-toggle="modal" data-mdb-target="#cardModal">
+          <a href="#game">
+            <div class="card-body">
+              <h5 class="card-title">Debatable</h5>
+              <p class="card-text">Răspunde cu PRO sau CONTRA, explicându-ți opinia. Dacă opinia ta coincide cu cea a grupului, primești un punct.</p>
+            </div>
+          </a>
+        </div>  
+        <div class="card" data-mdb-toggle="modal" data-mdb-target="#cardModal">
+          <a href="#game">
+            <div class="card-body">
+              <h5 class="card-title">Cine ar ...</h5>
+              <p class="card-text">Zi cine este cel mai probabil să facă lucrul de pe cartonaș. Dacă opinia ta coincide cu cea a grupului, primești un punct.</p>
+            </div>
+          </a>  
         </div>
-    </main>
-</body>
+        <div class="card" data-mdb-toggle="modal" data-mdb-target="#cardModal">
+          <a href="#game">
+            <div class="card-body">
+              <h5 class="card-title">Quiz de cultură generală</h5>
+              <p class="card-text">Răspunde la întrebări și primește puncte dacă răspunzi corect.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal modal-lg" id="cardModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Să condimentăm jocul!</h5>
+            </div>
+            <div class="modal-body">
+              <h5>
+                Persoana care obține cele mai puține like-uri de la grup, primește o provocare de la acesta. Enjoy!
+              </h5> 
+            </div>
+            <img src="cute-devil.jpg" alt="Cute devil">
+            <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Închide</button>
+          </div>
+        </div>
+      </div>
+      
+      <div id="game" class="d-none">
+        <h2>Răspunde: </h2>
+        <h1>Ana</h1>
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text" id="question">Care este cea mai faimoasă persoană pe care ai cunoscut-o vreodată?</p>
+          </div>
+          <div id="like-dislike" class="d-none">
+            <button type="button" class="btn btn-light" data-mdb-ripple-color="dark" id="likeBtn">Like</button>
+            <button type="button" class="btn btn-light" data-mdb-ripple-color="dark" id="dislikeBtn">Dislike</button> 
+          </div>
+          <div id="nextBtn" class="d-none">
+            <button type="button" class="btn btn-light" data-mdb-ripple-color="dark" id="next">Urmatorul jucator</button>
+          </div>
+        </div>
+        
+      </div>
+           
+    </div>
+
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script src="js\script.js"></script>
+  </body>
 </html>

@@ -1,0 +1,899 @@
+{
+    "people": [
+        {
+            "pernsonName": "Ana"
+        },
+        {
+            "pernsonName": "Madlena"
+        },
+        {
+            "pernsonName": "Cristi"
+        },
+        {
+            "pernsonName": "Ovidiu"
+        },
+        {
+            "pernsonName": "Oleg"
+        },
+        {
+            "pernsonName": "Iustin"
+        }
+    ],
+    "questionsQuiz": [
+        {
+            "text": "Care este cea mai faimoasă persoană pe care ai cunoscut-o vreodată?"
+        },
+        {
+            "text": "Dacă ai putea dobândi o nouă abilitate într-o clipă, care ar fi aceasta?"
+        },
+        {
+            "text": "Cine este cineva pe care îl admiri cu adevărat?"
+        },
+        {
+            "text": "Care este cea mai veche amintire a ta?"
+        },
+        {
+            "text": "Ce te-a făcut să zâmbești recent?"
+        },
+        {
+            "text": "Care este locul tău preferat pe care l-ai vizitat vreodată?"
+        },
+        {
+            "text": "Care este tradiția ta preferată de familie?"
+        },
+        {
+            "text": "Ce ceva nou vrei să faci anul acesta?"
+        },
+        {
+            "text": "Care este cel mai bun sfat pe care l-ai auzit vreodată?"
+        },
+        {
+            "text": "Colectionezi ceva?"
+        },
+        {
+            "text": "Care este cel mai folosit emoji al tău?"
+        },
+        {
+            "text": "Care este cea mai faimoasă persoană pe care ai cunoscut-o vreodată?"
+        },
+        {
+            "text": "Dacă ai putea dobândi o nouă abilitate într-o clipă, care ar fi aceasta?"
+        },
+        {
+            "text": "Cine este cineva pe care îl admiri cu adevărat?"
+        },
+        {
+            "text": "Care este cea mai veche amintire a ta?"
+        },
+        {
+            "text": "Ce te-a făcut să zâmbești recent?"
+        },
+        {
+            "text": "Care este locul tău preferat pe care l-ai vizitat vreodată?"
+        },
+        {
+            "text": "Dacă ai fi luptător, care ar fi melodia ta de intrare?"
+        },
+        {
+            "text": "Dacă ai putea aduce înapoi orice tendință de modă, care ar fi aceasta?"
+        },
+        {
+            "text": "Dacă ai avea un talk show de noapte, pe cine ai invita ca primul tău invitat?"
+        },
+        {
+            "text": "Dacă s-ar face un film din viața ta, ce gen ar fi și cine te-ar interpreta?"
+        },
+        {
+            "text": "Dacă ar fi neapărat să cânți karaoke, care ar fi melodia ta preferată?"
+        },
+        {
+            "text": "Dacă ar fi să mănânci o singură masă pentru tot restul vieții, care ar fi aceasta?"
+        },
+
+        {
+            "text": "Dacă ai fi lăsat pe o insulă pustie fie cu cel mai mare dușman al tău, fie cu nimeni, pe care ai alege? De ce?"
+        },
+        {
+            "text": "Dacă extratereștrii ar ateriza mâine pe Pământ și s-ar oferi să te ia acasă cu ei, ai merge?"
+        },
+        {
+            "text": "Care ar fi titlul autobiografiei tale?"
+        },
+        {
+            "text": "În copilărie, ce ai vrut să fii când crești mare?"
+        },
+        {
+            "text": "Ce lume sau loc fictiv ai vrea să vizitezi?"
+        },
+        {
+            "text": "Care este momentul tău preferat al zilei și de ce?"
+        },
+        {
+            "text": "Ce rasă de câini ai fi?"
+        },
+        {
+            "text": "Dacă ai avea o mașină a timpului, te-ai întoarce în timp sau în viitor?"
+        },
+        {
+            "text": "Care este cea mai ciudată mâncare pe care ai mâncat-o vreodată?"
+        },
+        {
+            "text": "Dacă ai putea sta cu orice personaj din desene animate, pe cine ai alege și de ce?"
+        },
+
+        {
+            "text": "Dacă ai putea trăi oriunde în lume timp de un an, unde ai fi?"
+        },
+        {
+            "text": "Dacă ai putea alege oricare doi oameni celebri cu care să ia cina, cine ar fi ei?"
+        },
+        {
+            "text": "Dacă ai putea fi orice animal din lume, ce animal ai alege să fii?"
+        },
+        {
+            "text": "Dacă te-ai putea redenumi, ce nume ai alege?"
+        },
+        {
+            "text": "Care este cel mai aventuros lucru pe care l-ai făcut vreodată?"
+        },
+        {
+            "text": "Care este cel mai ciudat lucru în care credeai când erai copil?"
+        }
+    ],
+    "debatable": [
+        {
+            "text": "Testarea pe animale ar trebui interzisă."
+        },
+        {
+            "text": "Femeile ar trebui să fie plătite mai puțin decât bărbații în anumite profesii."
+        },
+        {
+            "text": "Femeile ar trebui să aibă aceleași standarde fizice pentru a deveni pompier sau ofițer de poliție sau pentru a se alătura armatei."
+        },
+        {
+            "text": "Dependenții de droguri ar trebui să primească ajutor, nu pedepse."
+        },
+        {
+            "text": "Persoanele care fumează ar trebui să plătească mai mult pentru asistența medicală."
+        },
+        {
+            "text": "Toate drogurile recreative ar trebui legalizate."
+        },
+        {
+            "text": "Fiecare are dreptul să dețină o armă."
+        },
+        {
+            "text": "Clonarea umană ar trebui permisă."
+        },
+        {
+            "text": "Jocurile video îi fac pe oameni violenți."
+        },
+        {
+            "text": "Marijuana ar trebui legalizată."
+        },
+        {
+            "text": "Salariul minim nu este necesar."
+        },
+        {
+            "text": "E prea târziu pentru a opri schimbările climatice."
+        },
+        {
+            "text": "Bogații ar trebui să aibă cote de impozitare mai mari."
+        },
+        {
+            "text": "A fi cu adevărat scund este mai bine decât a fi cu adevărat înalt."
+        },
+        {
+            "text": "Zborul este cea mai bună superputere."
+        },
+        {
+            "text": "Ar fi groaznic să știm ce gândesc alții tot timpul."
+        },
+        {
+            "text": "Luni este cea mai proastă zi."
+        },
+        {
+            "text": "Pedeapsa cu moartea ar trebui abolită."
+        },
+        {
+            "text": "Grădinile zoologice ar trebui interzise."
+        },
+        {
+            "text": "Vârsta de vot ar trebui redusă la 16 ani."
+        },
+        {
+            "text": "Jocurile video violente ar trebui interzise."
+        },
+        {
+            "text": "Țara noastră ar trebui să introducă un venit de bază universal."
+        },
+        {
+            "text": "Relațiile la distanță nu funcționează niciodată."
+        },
+        {
+            "text": "O educație universitară nu este necesară în zilele noastre."
+        },
+        {
+            "text": "Rețelele sociale contribuie la creșterea ratelor de sinucidere."
+        },
+        {
+            "text": "Nu este potrivit să predați religia în școli."
+        },
+        {
+            "text": "Democrația este cea mai bună formă de guvernare."
+        },
+        {
+            "text": "Companiile au prea multe informații despre noi."
+        },
+        {
+            "text": "Pizza este mai delicioasă decât un hamburger."
+        },
+        {
+            "text": "Ai renunța la un deget în schimbul unui milion de dolari?"
+        },
+        {
+            "text": "O gorilă ar câștiga într-o luptă cu un urs."
+        },
+        {
+            "text": "Nu ar exista război dacă toți liderii lumii ar fi femei."
+        },
+        {
+            "text": "Adolescenții ar trebui să aibă locuri de muncă după școală."
+        },
+        {
+            "text": "Banii te fac mai fericit."
+        },
+        {
+            "text": "Nu ar trebui să mâncăm atât de multă carne."
+        },
+        {
+            "text": "Nu ar trebui permise pungile de plastic."
+        },
+        {
+            "text": "Oamenii de dimineață sunt mai productivi decât bufnițele de noapte."
+        },
+        {
+            "text": "Clienții nu au întotdeauna dreptate."
+        },
+        {
+            "text": "Trișarea la examene este uneori acceptabilă."
+        },
+        {
+            "text": "Întâlnirile online sunt o modalitate bună de a întâlni oameni."
+        },
+        {
+            "text": "Elevilor ar trebui să li se ceară să învețe o altă limbă la școală."
+        },
+        {
+            "text": "Engleza este cea mai importantă limbă de învățat."
+        },
+        {
+            "text": "Vacanța de vară este mai bună decât vacanța de iarnă."
+        },
+        {
+            "text": "Oamenii pierd prea mult timp pe rețelele de socializare."
+        },
+        {
+            "text": "Conviețuirea împreună înainte de căsătorie este utilă."
+        },
+        {
+            "text": "Reclamele pentru copii ar trebui interzise."
+        },
+        {
+            "text": "Copiii nu ar trebui să aibă smartphone-uri."
+        },
+        {
+            "text": "Copiii nu ar trebui să aibă voie să se uite la televizor."
+        },
+        {
+            "text": "Temele nu ar trebui permise în școli."
+        },
+        {
+            "text": "Educația la domiciliu este mai bună decât școala obișnuită."
+        },
+        {
+            "text": "Școlile ar trebui să interzică telefoanele."
+        },
+        {
+            "text": "Arta nu este un subiect important."
+        },
+        {
+            "text": "Muzica nu este un subiect important."
+        },
+        {
+            "text": "A trăi pentru totdeauna ar fi groaznic."
+        },
+        {
+            "text": "A fi arătos este mai bine decât a fi inteligent."
+        },
+        {
+            "text": "E mai bine să stai acasă decât să ieși."
+        },
+        {
+            "text": "Ananasul nu are locul pe pizza."
+        },
+        {
+            "text": "Pizza cu crusta subțire este mai bună decât cea groasă."
+        },
+        {
+            "text": "Oamenii nu ar trebui să se întâlnească niciodată cu un coleg."
+        },
+        {
+            "text": "Cărțile adevărate sunt mai bune decât cărțile electronice."
+        },
+        {
+            "text": "Prizonierii nu ar trebui să aibă voie să voteze."
+        },
+        {
+            "text": "Oamenii bogați ar trebui să plătească mai mult taxe."
+        },
+        {
+            "text": "Testele pe animale ar trebui interzise."
+        },
+        {
+            "text": "Avortul ar trebui interzis."
+        },
+        {
+            "text": "Universitatea ar trebui să fie fără școlarizare."
+        },
+        {
+            "text": "Alimentele modificate genetic ar trebui interzise."
+        },
+        {
+            "text": "Toată lumea ar trebui să devină vegană pentru a opri schimbările climatice."
+        },
+        {
+            "text": "Inteligența artificială va fi într-o zi periculoasă pentru oameni."
+        },
+        {
+            "text": "Guvernul ar trebui să finanțeze integral sănătatea și îngrijirea dentară."
+        }
+    ],
+    "cineAr": [
+        {
+            "text": "Cel mai probabil să uite ziua de naștere a celui mai bun prieten al lor?"
+        },
+        {
+            "text": "Cel mai probabil să mănânci ceva de pe pământ?"
+        },
+        {
+            "text": "Cel mai probabil să furați din magazin?"
+        },
+        {
+            "text": "Cel mai probabil să-și cheltuiască toți banii pe ceva stupid?"
+        },
+        {
+            "text": "Cel mai probabil să-ți faci un tatuaj groaznic?"
+        },
+        {
+            "text": "Cel mai probabil să facă un trio?"
+        },
+        {
+            "text": "Cel mai probabil să deveniți CEO?"
+        },
+        {
+            "text": "Cel mai probabil să te căsătorești cu o celebritate?"
+        },
+        {
+            "text": "Cel mai probabil să nu se căsătorească niciodată?"
+        },
+        {
+            "text": "Cel mai probabil să aibă o aventură?"
+        },
+        {
+            "text": "Cel mai probabil să divorțeze?"
+        },
+        {
+            "text": "Cel mai probabil să se alăture unui cult?"
+        },
+        {
+            "text": "Cel mai probabil să comită o crimă?"
+        },
+        {
+            "text": "Cel mai probabil să se culce cu fostul lor?"
+        },
+        {
+            "text": "Cel mai probabil să aibă o aventură de o noapte?"
+        },
+        {
+            "text": "Cel mai probabil să-i dea copilului lor un nume neobișnuit (îngrozitor)?"
+        },
+        {
+            "text": "Cel mai probabil să petreci ore întregi într-o gaură a teoriei conspirației YouTube?"
+        },
+        {
+            "text": "Cel mai probabil să fii prins făcând sex în public?"
+        },
+        {
+            "text": "Cel mai probabil să se piardă în propriul oraș natal?"
+        },
+        {
+            "text": "Cel mai probabil să vă îmbătați prea mult la băuturile înainte?"
+        },
+        {
+            "text": "Cel mai probabil să fii dat afară din club?"
+        },
+        {
+            "text": "Cel mai probabil să aibă propriul reality show?"
+        },
+        {
+            "text": "Cel mai probabil să deveniți un influencer?"
+        },
+        {
+            "text": "Cel mai probabil să se căsătorească cu cineva pe care tocmai l-au cunoscut?"
+        },
+        {
+            "text": "Cel mai probabil să te culci cu un membru al familiei unui prieten?"
+        },
+        {
+            "text": "Cel mai probabil să păstrezi un secret?"
+        },
+        {
+            "text": "Cel mai probabil să stai o săptămână fără duș?"
+        },
+        {
+            "text": "Cel mai probabil să-și falsifice propria moarte?"
+        },
+        {
+            "text": "Cel mai probabil să mai dețineți un Nokia 3310?"
+        },
+        {
+            "text": "Cel mai probabil să otrăviți accidental pe cineva cu gătit groaznic?"
+        },
+        {
+            "text": "Cine este cel mai probabil să-și petreacă tot weekendul privind un nou serial TV?"
+        },
+        {
+            "text": "Cine este cel mai probabil să nu aibă niciodată copii?"
+        },
+        {
+            "text": "Cine este cel mai probabil să fie pe covorul roșu într-o zi?"
+        },
+        {
+            "text": "Cine este cel mai probabil să trăiască cel mai mult?"
+        },
+        {
+            "text": "Cine este cel mai probabil să adopte stilul de viață #vanlife?"
+        },
+        {
+            "text": "Cine este cel mai probabil să-și ducă toate secretele în mormânt?"
+        },
+        {
+            "text": "Cine este cel mai probabil să-și dețină propria fermă în țară?"
+        },
+        {
+            "text": "Cine este cel mai probabil să fie primul care se căsătorește?"
+        },
+        {
+            "text": "Cine este cel mai probabil să găsească accidental un portal către altă dimensiune?"
+        },
+        {
+            "text": "Cine este cel mai probabil să plângă în timpul unui film trist?"
+        },
+        {
+            "text": "Cine este cel mai probabil să scape de smartphone-ul și să revină la utilizarea unui telefon cu flip?"
+        },
+        {
+            "text": "Cine este cel mai probabil să fi citit cel mai mare număr de țări?"
+        },
+        {
+            "text": "Cine este cel mai probabil să participe la Jocurile Olimpice?"
+        },
+        {
+            "text": "Cine este cel mai probabil să devină milionar?"
+        },
+        {
+            "text": "Cine este cel mai probabil să se mute într-o țară străină?"
+        },
+        {
+            "text": "Cine este cel mai probabil să apară la ușă cu supă când ești bolnav?"
+        },
+        {
+            "text": "Cine este cel mai probabil să nu-ți uite ziua de naștere?"
+        },
+        {
+            "text": "Cine este cel mai probabil să se trezească primul dimineața într-o excursie cu prietenii?"
+        },
+        {
+            "text": "Cine este cel mai probabil să devină un stand-up comedian?"
+        },
+        {
+            "text": "Cine este cel mai probabil să comande mâncare la pachet atunci când are deja resturi în frigider?"
+        },
+        {
+            "text": "Cine este cel mai probabil să primească o amendă de viteză într-o călătorie?"
+        },
+        {
+            "text": "Cine este cel mai probabil să știe exact ce să spună când te simți trist?"
+        },
+        {
+            "text": "Cine este cel mai probabil să se căsătorească în Vegas?"
+        },
+        {
+            "text": "Cine este cel mai probabil să ajungă ca concurent la un show național de talente?"
+        },
+        {
+            "text": "Cine este cel mai probabil să se rănească în timp ce face treburile în apartamentul lor?"
+        },
+        {
+            "text": "Cine este cel mai probabil să aibă o coafură nouă data viitoare când le vezi?"
+        },
+        {
+            "text": "Cine este cel mai probabil să moară primul într-un film de groază?"
+        },
+        {
+            "text": "Cine este cel mai probabil să se scufunde?"
+        },
+        {
+            "text": "Cine este cel mai probabil să fie spion?"
+        },
+        {
+            "text": "Cine este cel mai probabil să-și renoveze întreaga casă?"
+        },
+        {
+            "text": "Cine este cel mai probabil să-și dea toți banii în scopuri caritabile?"
+        },
+        {
+            "text": "Cine este cel mai probabil să se strecoare în filme?"
+        },
+        {
+            "text": "Cine este cel mai probabil să devină profesor la liceu?"
+        },
+        {
+            "text": "Cine este cel mai probabil să întârzie la brunch pentru că s-a oprit să mângâie un câine?"
+        },
+        {
+            "text": "Cine este cel mai probabil să termine o halbă de înghețată într-o singură ședință?"
+        },
+        {
+            "text": "Cine este cel mai probabil să cumpere mai multă lenjerie în loc să spele rufele?"
+        },
+        {
+            "text": "Cine este cel mai probabil să conducă un protest?"
+        },
+        {
+            "text": "Cine este cel mai probabil să se închidă din locul lor?"
+        },
+        {
+            "text": "Cine este cel mai probabil să sforăie?"
+        },
+        {
+            "text": "Cine este cel mai probabil să știe despre noul restaurant fierbinte înaintea tuturor?"
+        },
+        {
+            "text": "Cine este cel mai probabil să aibă o aventură în timpul vacanței?"
+        },
+        {
+            "text": "Cine este cel mai probabil să fie primul care iese pe ringul de dans?"
+        },
+        {
+            "text": "Cine este cel mai probabil să aibă întotdeauna cele mai bune gustări?"
+        },
+        {
+            "text": "Cine este cel mai probabil să te salveze de la o primă întâlnire proastă?"
+        },
+        {
+            "text": "Cine este cel mai probabil să facă bricolaj ceva în loc să-l cumpere?"
+        },
+        {
+            "text": "Cine este cel mai probabil să mănânce pizza la micul dejun?"
+        },
+        {
+            "text": "Cine este cel mai probabil să-i spună chelnerului că este ziua lor pentru un tort gratuit?"
+        },
+        {
+            "text": "Cine este cel mai probabil să-și facă prieteni noi ori de câte ori iese?"
+        },
+        {
+            "text": "Cine este cel mai probabil să adopte următorul animal de companie?"
+        },
+        {
+            "text": "Cine este cel mai probabil să-și petreacă sâmbăta dimineața făcând voluntariat?"
+        },
+        {
+            "text": "Despre cine este cel mai probabil să se scrie în viitoarele cărți de istorie?"
+        },
+        {
+            "text": "Cine este cel mai probabil să câștige la loterie?"
+        },
+        {
+            "text": "Cine este cel mai probabil să întârzie la cină?"
+        },
+        {
+            "text": "Cine este cel mai probabil să fie primul care se înscrie la karaoke?"
+        },
+        {
+            "text": "Cine este cel mai probabil să uite să trimită mesaje înapoi?"
+        },
+        {
+            "text": "Cine este cel mai probabil să trimită mesaje „în drumul meu” când încă se pregătesc?"
+        },
+        {
+            "text": "Cine este cel mai probabil să cumpere o motocicletă?"
+        }
+    ],
+    "generalCulture": [
+        {
+            "question": "Un şofer conducea un camion. Luminile camionului nu erau aprinse. Luna nu era pe cer. O doamnă traversa strada. Cum a reuşit şoferul să o vadă?",
+            "answer": "Era o zi însorită de vară."
+        },
+        {
+            "question": "Cine nu pune nicio întrebare, dar are nevoie de răspuns?",
+            "answer": "O sonerie sau un apel pe telefon"
+        },
+        {
+            "question": "Ce îi spune un perete alb unui perete verde?",
+            "answer": "Ne întâlnim la colţ."
+        },
+        {
+            "question": "40 de instrumentişti interpretează o partitură muzicală într-o jumătate de oră. În câte minute vor interpreta aceeaşi partitură muzicală un număr de 80 de instrumentişti?",
+            "answer": "O vor interpreta în 30 minute, partitura este aceeași!"
+        },
+        {
+            "question": "Ce merge în sus şi în jos, dar nu se mişcă?",
+            "answer": "Scara"
+        },
+        {
+            "question": "Ce este o zebră?",
+            "answer": "Un cal cu jaluzele"
+        },
+        {
+            "question": "Ce cuvânt este pronunţat corect când este greşit, dar este pronunţat greşit când este corect?",
+            "answer": "Greşit"
+        },
+        {
+            "question": "Ce îţi aparţine şi este folosit mai mult de alţii?",
+            "answer": "Numele tău"
+        },
+        {
+            "question": "O domnişoară este înmormântată în vârf de deal. De ce?",
+            "answer": "Acolo era cimitirul"
+        },
+        {
+            "question": "Moare şi soţul domnişoarei înmormântate în vârf de deal. Poate fi înmormântat la poalele dealului ? De ce?",
+            "answer": "Fata era domnişoară deci nu avea soţ!)"
+        },
+        {
+            "question": "Într-un coş sunt patru mere galbene şi cinci roşii. Câte mere sunt în coş?",
+            "answer": "4 mere, cele 5 sunt roșii, adică tomate"
+        },
+        {
+            "question": "Un paznic de noapte , moare în timpul zilei. Are el dreptul la pensie?",
+            "answer": "Morţii nu iau pensie"
+        },
+        {
+            "question": "Un profesor de sport avea un sac cu 10 mingi. Un elev rău îi sparge cu un cui două mingi. Cu câte mingi a mai rămas profesorul?",
+            "answer": "Va rămâne tot cu 10 mingi, dar două sunt sparte!"
+        },
+        {
+            "question": "În China un japonez se poate căsători cu sora văduvei lui?",
+            "answer": "Văduva are soţul mort"
+        },
+        {
+            "question": "Dacă te afli la un concurs de atletism şi îl depăşeşti pe cel aflat pe locul II pe ce loc te vei afla după depăşire?",
+            "answer": "Pe primul loc se va afla doar cel care-l va depăşi pe primul concurent deci în acest caz pe locul al doilea."
+        },
+        {
+            "question": "Ion are 8 ani. Câţi ani are Dan, fratele său, ştiind că Ion este de două ori mai mic decât fratele său.",
+            "answer": "Problema este una de falsă împărţire. Dan va avea 16 ani."
+        },
+        {
+            "question": "Tatăl Tanţei are cinci fete: prima fată se numeşte Cla-Cla , a doua Cle-cle , a treia Cli-cli şi a patra Clo-clo. Cum o cheamă pe a cincea fată?",
+            "answer": "Răspunsul este numai unul : Tanţa"
+        },
+        {
+            "question": "Gigi are un frate şi trei surori.Una dintre surorile lui Gigi se numeşte Ana. Câţi fraţi şi câte surori are Ana?",
+            "answer": "În familie fiind doi fraţi şi trei surori, Ana va avea doi fraţi şi două surori."
+        },
+        {
+            "question": "O cărămidă costă 1 leu şi încă jumătate de cărămidă. Câţi lei costă o cărămidă ?",
+            "answer": "2 lei"
+        },
+        {
+            "question": "În ce parte, stânga sau dreapta a unei bancnote de 10 lei este portretul lui Nicolae Iorga?",
+            "answer": "Este de fapt N.Grigorescu pe bancnota de 10 lei"
+        },
+        {
+            "question": "Un tren personal pleacă din Bucureşti spre Cluj. Un accelerat pleacă din Cluj spre Bucureşti. Ele se întâlnesc în gara Mediaş. Care este mai aproape de Bucureşti în momentul întâlnirii ?",
+            "answer": "Ambele"
+        },
+        {
+            "question": "Un cioban are 15 oi. În afară de 5, toate mor. Câte oi mai rămân?",
+            "answer": "5"
+        },
+        {
+            "question": "Eşti pilot de avion pe ruta Bucureşti-New York. Avionul pleacă din Bucureşti cu 20 de pasageri şi face escale la Berlin si Paris. Câţi ani are pilotul ?",
+            "answer": "Tu ești pilotul, deci răspunzi cu vârsta ta!)"
+        },
+        {
+            "question": "Câte cifre de nouă se folosesc pentru a scrie primele 100 de numere naturale?",
+            "answer": "20"
+        },
+        {
+            "question": "Unde s-a săpat prima fântână din Romania?",
+            "answer": "În pământ"
+        },
+        {
+            "question": "Câte sute sunt într-o duzină?",
+            "answer": "0, o duzină înseamnă 12!"
+        },
+        {
+            "question": "Un doctor prescrie unui pacient 3 pastile pe care le ia din jumătate în jumătate de oră. De cât timp are nevoie să le ia pe toate?",
+            "answer": "o oră"
+        },
+        {
+            "question": "Ce eveniment a avut loc la 25 XII 1944 la Bucureşti?",
+            "answer": "Crăciunul"
+        },
+        {
+            "question": "Câte animale din fiecare specie a luat Moise în arca lui?",
+            "answer": "Era Noe, nu Moise!)"
+        },
+        {
+            "question": "Unde a scris M. Eminescu „Amintiri din copilarie” la Ipoteşti sau Botoşani?",
+            "answer": "Ion Creangă a scris „Amintiri”, nu Eminescu"
+        },
+        {
+            "question": "Un litru de oţet are 90.Câte grade are o jumătate de litru?",
+            "answer": "tot atâtea"
+        },
+        {
+            "question": "Cât fac doi plus doi împărţit la doi?",
+            "answer": "2"
+        },
+        {
+            "question": "La o mână ai 5 degete. La două mâini ai 10 degete. Câte degete ai la zece mâini?",
+            "answer": "50"
+        },
+        {
+            "question": "Un nufăr îşi dublează suprafaţa în fiecare zi. În a zecea zi ocupă un sfert de lac. În a câta zi va ocupa întreg lacul?",
+            "answer": "În a douăsprezecea zi"
+        },
+        {
+            "question": "Care este al douăzecilea număr natural?",
+            "answer": "19"
+        },
+        {
+            "question": "Nasul lui Pinochio are cu şase centimetri mai mult decât jumătatea lui. Câţi cm are nasul lui Pinochio?",
+            "answer": "12"
+        },
+        {
+            "question": "Un cetăţean de origine irlandeză, care trăieşte în SUA, poate fi înmormântat în Franţa cu funeralii naţionale?",
+            "answer": "Omul trăieşte în SUA, deci nu va fi îngropat în Franța"
+        },
+        {
+            "question": "Câte zile de naştere are un om de 33 de ani născut în luna februarie?",
+            "answer": "una singură"
+        },
+        {
+            "question": "La 14 iulie este ziua Franţei. La ce popor din Asia mai există această zi?",
+            "answer": "La toate popoarele există în calendar ziua de 14 iulie"
+        },
+        {
+            "question": "Ce trece peste apă și nu face valuri? ",
+            "answer": "Podul"
+        },
+        {
+            "question": "Cum iese un cal alb care tocmai ce a intrat în Marea Neagră? ",
+            "answer": "Ud"
+        },
+        {
+            "question": "Ce vine mereu dar nu ajunge niciodată?",
+            "answer": "Mâine"
+        },
+        {
+            "question": "Câteva luni au 31 de zile, altele 30, dar câte luni au 28 de zile? ",
+            "answer": "Toate lunile"
+        },
+        {
+            "question": "De ce se trag clopotele la biserică? ",
+            "answer": "De funie"
+        },
+        {
+            "question": "Câte mere poți mânca dimineața pe stomacul gol? ",
+            "answer": "Unul, căci restul nu mai sunt pe stomacul gol"
+        },
+        {
+            "question": "O pisică albă urcă într-un copac. Cum coboară? ",
+            "answer": "Albă"
+        },
+        {
+            "question": "Într-o mașină sunt tatăl și fiul. Aceștia fac un tragic accident rutier. Tatăl moare pe loc, copilul ajunge în stare de urgență pe masa de operație. Chirurgul zice: „Nu-l pot opera, întrucât e fiul meu”. Cine este chirurgul? ",
+            "answer": "Mama copilului"
+        },
+        {
+            "question": "Într-un coș sunt 3 mere verzi și 4 roșii. Câte mere sunt în coș?",
+            "answer": "Trei, restul sunt 4 legume."
+        },
+        {
+            "question": "Cum numești o femeie care știe mereu unde este soțul ei? ",
+            "answer": "văduvă"
+        },
+        {
+            "question": "Există o cameră fără uși și fără ferestre. Un bărbat este găsit spânzurat de tavan. O baltă de apă este pe podea. Cum a murit? ",
+            "answer": "stătea pe un bloc de gheață care s-a topit ulterior"
+        },
+        {
+            "question": "Câte timbre de 2 lei sunt într-o duzină? ",
+            "answer": "12 timbre"
+        },
+        {
+            "question": "Ce instrument îl poți auzi mereu, dar nu îl poți vedea",
+            "answer": "Vocea"
+        },
+        {
+            "question": "Alexandra s-a născut pe data de 27 decembrie. Cu toate acestea, ziua ei de naştere este mereu vara. Cum este posibil acest lucru?",
+            "answer": "Alexandra locuieşte în emisfera sudică."
+        },
+        {
+            "question": "Un băiat și un medic pescuiau. Băiatul este fiul medicului, dar doctorul nu este tatăl băiatului. Cine este doctorul? ",
+            "answer": "mama băiatului"
+        },
+        {
+            "question": "Dacă te afli într-o competiție de alergat și îl depășești pe concurentul al-doilea, pe ce loc vei te vei clasa la final? ",
+            "answer": "Pe locul al 2-lea"
+        },
+        {
+            "question": "Care este singura întrebare la care se răspunde cu NU pentru că ar fi imposibil să se răspundă cu DA? ",
+            "answer": "Dormi? sau Ești mort?"
+        },
+        {
+            "question": "Dacă 3 ouă fierb în 10 minute, 56 de ouă în câte minute fierb? ",
+            "answer": "În 10 minute"
+        },
+        {
+            "question": "Unde este duminica înaintea sâmbetei? ",
+            "answer": ": În dicționar"
+        },
+        {
+            "question": "Sunt 3 camere în care ești obligat să intri și să alegi în care ai vrea să supravietuiesti: Prima cameră este plină cu criminali înarmați până în gât, a doua cu lei nemâncați de 5 ani și a 3-a cameră cu gaz toxic. În care alegi să intri pentru a rămâne în viață? ",
+            "answer": "În cea de-a doua, căci leii nemâncați de 5 ani sunt morți."
+        },
+        {
+            "question": "Eşti într-o cameră întunecată şi găseşti un singur băţ de chibrit. Ce aprinzi prima dată: Ziarul, lampa sau lumânarea?",
+            "answer": "Chibritul"
+        },
+        {
+            "question": "Un tren electric merge spre sud cu 80km/h și vântul bate dinspre Nord-Vest cu 10 km/h. În ce direcție o ia fumul? ",
+            "answer": "Trenul electric nu scoate fum"
+        },
+        {
+            "question": "Ești într-o mașină în fața trecerii de pietoni și ai de ales între a călca o bătrână sau un copil. Ce calci prima dată? ",
+            "answer": "Frâna"
+        },
+        {
+            "question": "Dacă un avion se prăbușeste fix la granița dintre România și Bulgaria, unde vor fi înmormântați supraviețuitorii? ",
+            "answer": "Supraviețuitorii nu vor fi înmormântați"
+        },
+        {
+            "question": "Un român care trăieşte în București poate fi înmormântat la New York? ",
+            "answer": "Nu, pentru că trăiește"
+        },
+        {
+            "question": "Casa roșie este pe strada Galbenă. Casa galbenă este pe strada Albă. Unde se află Casa Albă? ",
+            "answer": "La Washington"
+        },
+        {
+            "question": "Dacă un cocoș face un ou exact în vârful unui hambar, pe ce parte cade oul și de ce? ",
+            "answer": "cocoșii nu fac ouă"
+        },
+        {
+            "question": "Un şofer de camion merge pe o stradă cu sens unic în direcţia greşită. Deși bărbatul trece pe lângă două echipaje de poliție, acesta nu este oprit de oamenii legii. Cum este posibil? ",
+            "answer": "Merge pe jos"
+        },
+        {
+            "question": "Ce s-a terminat în 1920? ",
+            "answer": "1919"
+        },
+        {
+            "question": "Cât pământ se află într-o groapă de un metru lungime și 30 de cm lățime, săpată în mijlocul unei păduri din America de Sud? ",
+            "answer": ": E o groapă, niciun gram de pământ nu se află în aceasta"
+        },
+        {
+            "question": "Pot verişorii tăi să aibă o mătuşă comună pe care tu nu o ai? ",
+            "answer": "Da, mătușa comună este chiar mama mea"
+        }
+    ]
+
+    
+}

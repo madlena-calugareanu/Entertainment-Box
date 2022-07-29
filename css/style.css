@@ -1,0 +1,257 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+.landing.container-fluid{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: url('/background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+#start{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+#start img{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    margin-bottom: 4rem;
+}
+
+.btn.btn-secondary.btn-rounded{
+    height: 5rem;
+    width: 20rem;
+    font-size: 1.5rem;
+    font-family: Roboto;
+    position: absolute;
+    bottom: 4rem;
+}
+
+#chooseGame,
+#game{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem 2rem 2rem 2rem;
+    margin: 0 0;
+}
+
+#chooseGame h1,
+#game h2{
+    color: aliceblue;
+    padding-top: 0;
+    padding-bottom: 2rem;
+}
+
+.card{
+    width: 100%;
+    height: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    transition-property: transform;
+    transition-duration: 0.4s;
+    transition-delay: 0.1s;
+}
+
+.card-body{
+    padding: 0.75rem;
+}
+
+a:hover,
+a { 
+    text-decoration: none; 
+    color: inherit;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.card-text{
+    font-size: 1rem;
+    text-align: justify;
+}
+
+#chooseGameBtn{
+    position: static;
+    width: calc(100vw - 4rem);
+    margin-top: 1rem;
+}
+
+.card:hover{
+    box-shadow: 3px 2px 27px 7px rgba(255,255,255,0.5);
+    transform: scale(1.03);
+    background-color: rgb(223, 208, 237);
+    color: rgb(43, 47, 50);
+    cursor: pointer;
+}
+
+.card:hover .card-title{
+    color: rgb(66, 43, 66);
+    font-weight: 600;
+}
+
+#game h1{
+    font-weight: 600;
+    font-size: 5rem;
+    color: rgb(213, 143, 235);
+    text-shadow: 4px 3px 7px #CC00CE;
+}
+
+#game .card-body{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#game .card-text{
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+}
+
+/* Modal */
+.modal-content{
+    position: absolute;
+    top: 2rem;
+    bottom: 2rem;
+    height: calc(100vh - 6rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+ }
+ 
+ .modal-content img{
+     height: 60%;
+     width: auto;
+ }
+ 
+ .modal-header h5{
+     text-align: center;
+     width: 100%;
+ }
+ 
+ .modal-body{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+ }
+ 
+ .modal-body h5{
+     height: 100%;
+     text-align: center;
+     width: 100%;
+     font-size: 1.2rem;
+     font-weight: 300;
+ }
+ 
+ .modal-content button{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+    font-size: 1.3rem;
+}
+
+#game .card:hover{
+    box-shadow: none;
+    transform: scale(1.0);
+    background-color: white;
+    color: rgb(43, 47, 50);
+    cursor:auto;
+}
+
+#like-dislike{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+#like-dislike button,
+#nextBtn button{
+    height: 4rem;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+}
+
+#like-dislike #likeBtn:hover{
+    background-color: rgb(44, 239, 174);
+}
+
+#like-dislike #dislikeBtn:hover{
+    background-color: rgb(227, 123, 123);
+}
+
+#likeBtn{
+    background-color: aquamarine;
+    color: white;
+    text-shadow: 1px 1px 9px #0d6c46;
+    border-radius: 0 0 0 0.5rem;
+}
+
+#dislikeBtn{
+    background-color: rgb(233, 165, 165);
+    color: white;
+    text-shadow: 1px 1px 9px #df2828;
+    border-radius: 0 0 0.5rem 0;
+}
+
+#next{
+    background-color: rgb(213, 143, 235);
+    color: white;
+}
+
+@media screen and (min-width: 768px){
+    .card{
+        width: 50%;
+        height: auto;
+    }
+    .modal.modal-lg{
+        width: 100%;
+        left: auto;
+        right:auto;
+    }
+}
+
+@media screen and (max-width: 576px){
+    h5.card-title{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    
+    p.card-text{
+        font-size: 0.9rem;
+        text-align: justify;
+    }
+}
