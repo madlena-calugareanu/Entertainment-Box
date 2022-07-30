@@ -126,6 +126,7 @@ a {
 #game .card-body{
     padding-top: 2rem;
     padding-bottom: 2rem;
+    text-align: center;
 }
 
 #game .card-text{
@@ -212,6 +213,11 @@ a {
 
 .card-body i#answer{
     color: rgb(213, 143, 235);
+}
+
+.card-body i#answer:hover{
+    color: rgb(151, 59, 179);
+    cursor: pointer;
 }
 
 @media screen and (min-width: 768px){
