@@ -26,12 +26,14 @@
     <!-- Start your project here-->
     
     <div class="landing container-fluid">
-
+      
+      <!-- Pagina de start -->
       <div id="start">
         <img src="person playing.jpg" alt="person playing" id="person-playing">
         <button type="button" class="btn btn-secondary btn-rounded" id="startGameBtn">Alege jocul</button>
       </div>
 
+      <!-- Alege un joc -->
       <div id="chooseGame" class="container-fluid d-none">
         <h1>Alege un joc:</h1>
 
@@ -69,7 +71,7 @@
         </div>
       </div>
 
-      <!-- Modal -->
+      <!-- Modal cu draci-->
       <div class="modal modal-lg" id="cardModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -87,13 +89,17 @@
         </div>
       </div>
       
+      <!-- Start  joc -->
       <div id="game" class="d-none">
+        <i class="fa-solid fa-list-ul fa-2x" id="menuList"></i>
+        <i class="fa-solid fa-xmark fa-2x d-none" id="exitList"></i>
         <h2>Răspunde: </h2>
         <h1 id="numeJucator">Ana</h1>
         <div class="card">
           <div class="card-body">
             <p class="card-text" id="question">Care este cea mai faimoasă persoană pe care ai cunoscut-o vreodată?</p>
             <i class="fa-solid fa-circle-question fa-2x d-none" id="answer"></i>
+            <h5  class="d-none" id="generalQuestionAnswer"></h5>
           </div>
           
           <div id="nextBtn" class="d-none">

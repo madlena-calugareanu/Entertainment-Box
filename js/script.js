@@ -13,6 +13,18 @@ $( document ).ready(function() {
         $('#nextBtn').removeClass('d-none');
     });
 
+    $('#menuList').on('click', ()=>{
+        $('#chooseGame').removeClass('d-none').addClass('menuStyles');
+        $('#menuList').addClass('d-none');
+        $('#exitList').removeClass('d-none');
+    });
+
+    $('#exitList').on('click', ()=>{
+        $('#chooseGame').addClass('d-none').removeClass('menuStyles');
+        $('#menuList').removeClass('d-none');
+        $('#exitList').addClass('d-none');
+    });
+
 
     $('#quizShow').on('click', ()=>{
         document.getElementById('numeJucator').innerHTML = getRandom(people);
@@ -43,11 +55,19 @@ $( document ).ready(function() {
 
     $('#generalCulture').on('click', ()=>{
         $('#answer').removeClass('d-none');
+        $('#answer').on('click', ()=>{
+            $('#generalQuestionAnswer').removeClass('d-none');
+            $('#answer').addClass('d-none');
+        })
         document.getElementById('numeJucator').innerHTML = getRandom(people);
         document.getElementById('question').innerHTML = getRandomGeneralQuestion();
+        document.getElementById('generalQuestionAnswer').innerHTML = displayAnswer;
         $('#next').on('click', ()=>{
             document.getElementById('numeJucator').innerHTML = getRandom(people);
             document.getElementById('question').innerHTML = getRandomGeneralQuestion();
+            document.getElementById('generalQuestionAnswer').innerHTML = displayAnswer;
+            $('#generalQuestionAnswer').addClass('d-none');
+            $('#answer').removeClass('d-none');
         })
     });
 
@@ -56,9 +76,13 @@ $( document ).ready(function() {
         return array[Math.floor(Math.random() * array.length)];
     };
 
+    var displayAnswer;
+
     function getRandomGeneralQuestion(){
         const generalQuestion = getRandom(generalCulture);
-        return generalQuestion[0];
+        const displayQuestion = generalQuestion[0];
+        displayAnswer = generalQuestion[1]
+        return displayQuestion;
     }
 
 
