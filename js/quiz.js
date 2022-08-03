@@ -606,5 +606,7 @@
         ,
         ["Pot verişorii tăi să aibă o mătuşă comună pe care tu nu o ai? ",
         "Da, mătușa comună este chiar mama mea"]
-                
+        ,
+        ["Camionul conducea în sat. Pe drum, a întâlnit 4 mașini. Câte mașini au mers în sat?",
+        "Una"] 
     ]
