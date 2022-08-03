@@ -40,7 +40,9 @@ $( document ).ready(function() {
         $('#next').on('click', ()=>{
             document.getElementById('numeJucator').innerHTML = getRandom(people);
             document.getElementById('question').innerHTML = getRandom(questionsQuiz);
-        })
+        });
+        $('#menuList').removeClass('d-none');
+        $('#exitList').addClass('d-none');
     });
 
     $('#debatable').on('click', ()=>{
@@ -49,7 +51,9 @@ $( document ).ready(function() {
         $('#next').on('click', ()=>{
             document.getElementById('numeJucator').innerHTML = getRandom(people);
             document.getElementById('question').innerHTML = getRandom(debatable);
-        })
+        });
+        $('#menuList').removeClass('d-none');
+        $('#exitList').addClass('d-none');
     });
 
     $('#cineAr').on('click', ()=>{
@@ -58,7 +62,9 @@ $( document ).ready(function() {
         $('#next').on('click', ()=>{
             document.getElementById('numeJucator').innerHTML = getRandom(people);
             document.getElementById('question').innerHTML = getRandom(cineAr);
-        })
+        });
+        $('#menuList').removeClass('d-none');
+        $('#exitList').addClass('d-none');
     });
 
     $('#generalCulture').on('click', ()=>{
@@ -76,7 +82,9 @@ $( document ).ready(function() {
             document.getElementById('generalQuestionAnswer').innerHTML = displayAnswer;
             $('#generalQuestionAnswer').addClass('d-none');
             $('#answer').removeClass('d-none');
-        })
+        });
+        $('#menuList').removeClass('d-none');
+        $('#exitList').addClass('d-none');
     });
 
 

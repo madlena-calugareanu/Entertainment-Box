@@ -403,7 +403,7 @@
         ["Cine nu pune nicio întrebare, dar are nevoie de răspuns?",
         "O sonerie sau un apel pe telefon"]
         ,
-        ["Ce îi spune un perete alb unui" ,
+        ["Ce îi spune un perete alb unui perete verde" ,
         "Ne întâlnim la colţ."]
         ,
         ["40 de instrumentişti interpretează o partitură muzicală într-o jumătate de oră. În câte minute vor interpreta aceeaşi partitură muzicală un număr de 80 de instrumentişti?",
