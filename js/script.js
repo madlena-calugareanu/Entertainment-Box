@@ -141,11 +141,13 @@ $( document ).ready(function() {
         }
         document.getElementById("personInput").value = "";
     
+        /*
         var span = document.createElement("SPAN");
         var txt = document.createTextNode("\u00D7");
         span.className = "close";
         span.appendChild(txt);
         li.appendChild(span);
+        */
 
         $("#GameBtn").on("click", ()=>{
             people.push(inputValue);

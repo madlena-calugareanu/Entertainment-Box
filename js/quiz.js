@@ -609,4 +609,119 @@
         ,
         ["Camionul conducea în sat. Pe drum, a întâlnit 4 mașini. Câte mașini au mers în sat?",
         "Una"] 
+        ,
+        [" Mergeau soț și soție, frate și soră, cumnat și cumnată. Câți erau, de fapt?",
+        "3"]
+        ,
+        ["Trăiesc doar acolo unde este lumină, dar imediat ce strălucește deasupra mea, mor.",
+        "Umbra"]
+        ,
+        ["Ce poate călători în lume, rămânând în același colț?",
+        "Timbrul poștal"],
+        [" Seara îmi dau o sarcină pentru a doua zi dimineață. Întotdeauna o duc la îndeplinire, dar tot mă certă. Cine sunt eu? ",
+        "Deșteptătorul"]
+        ,
+        ["Ce crește mereu și nu scade niciodată?",
+        "Vârsta omului"]
+        ,
+        [" Cum se numește teama venirii lui Santa Claus? ",
+        "Claustrofobie"]
+        ,
+        ["Cel mai popular mod de a transporta oamenii pe Pământ. ",
+        "Pe jos"]
+        ,
+        ["Este întotdeauna înaintea noastră, dar nu îl putem vedea. Ce este?",
+        "Viitorul"]
+        ,
+        ["De ce boală nu se îmbolnăvește nimeni pe uscat?",
+        "Răul de mare"]
+        ,
+        ["Ce nu se poate face în spațiu? ",
+        "Să te spânzuri)"]
+        ,
+        [" Ce să faci când vezi un om verde?",
+        "Să traversezi strada"]
+        ,
+        ["Care cal nu mănâncă ovăz?",
+        "Cel de la șah"]
+        ,
+        [" De ce roboții nu se tem niciodată? ",
+        "Pentru că au nervii de oțel"]
+        ,
+        ["De ce gorila are nările mari?",
+        "Pentru că are degetele grase"]
+        ,
+        ["Ce este: se vede un cap, nu se vede un cap, se vede un cap, nu se vede un cap?",
+        "Omul șchiop se duce în spatele gardului"]
+        ,
+        ["Cine, la întrebarea pusă de el, nu va răspunde niciodată „Da”?",
+        "Persoana adormită la întrebarea: „Dormiți?”"]
+        ,
+        ["Insulă care poartă denumire de îmbrăcăminte. ",
+        "Jamaica"]
+        ,
+        [" Ce este inteligența artificială? ",
+        "Blond revopsit"]
+        ,
+        ["Unde stă apa? ",
+        "Într-un pahar"]
+        ,
+        ["Cum, de obicei, sunt scoși elevii din clasă?",
+        "Pe ușă"]
+        ,
+        [" Instituție pentru trimiterea oamenilor în cer.",
+        "Aeroport"]
+        ,
+        ["De ce britanicii nu deschid niciodată ușa în pijamalele lor?",
+        "Pentru că nu există uși în pijamale"]
+        ,
+        ["Când este cel mai bun moment ca o pisică neagră să intre în casă?",
+        "Când ușa casei este neagră"]
+        ,
+        ["Cine are zile critice de două ori pe an? ",
+        "Studenții"]
+        ,
+        ["Câte ouă pot mânca pe stomacul gol?",
+        "Unul – restul nu vor mai fi pe stomacul gol"]
+        ,
+        ["Cine în ploaie nu-și udă părul?",
+        "Chelul"]
+        ,
+        ["Este posibil să sari deasupra clădirii cu nouă etaje?",
+        "Este posibil, deoarece clădirile cu nouă etaje nu pot sări"]
+        ,
+        ["Pot să mă căsătoresc la cincizeci și ceva de ani?",
+        "Poți, dar mai bine la douăzeci și mulți de ani"]
+        ,
+        ["Poate un struț să se numească pasăre?",
+        "(Nu, pentru că struții nu pot vorbi)"]
+        ,
+        ["De ce deputații nu reușesc să devină prieteni ai poporului?",
+        "Pentru că prietenii nu se aleg"]
+        ,
+        ["Stai într-un avion, în fața ta este un cal, în spate este o mașină. Unde ești?",
+        "Pe carusel"]
+        ,
+        ["De ce cântă cocoșul atât de mult?",
+        "Pentru că are zece soții și nicio soacră"]
+        ,
+        ["Care sunt asemănările dintre un agent de turism și un ginecolog?",
+        "Unde unii se odihnesc, alții muncesc din greu!"]
+        ,
+        ["De ce nu mănâncă calul ciocolată?",
+        "Dar cine îi va da?"]
+        ,
+        ["Cine poartă cea mai mare șapcă din lume?",
+        "Cel care are cel mai mare cap din lume"]
+        ,
+        ["Când poate fi cerul sub pământ?",
+        "Când se reflectă în apă"]
+        ,
+        ["Ce poți vedea cu ochii închiși?",
+        "Vis"]
+        ,
+        ["Care nod nu poate fi dezlegat? ",
+        "Cel al căii ferate"]
+
+
     ]
