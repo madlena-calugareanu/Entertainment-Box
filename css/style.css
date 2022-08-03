@@ -99,7 +99,7 @@ a {
 
 .card-text{
     font-size: 1rem;
-    text-align: justify;
+    text-align: center;
 }
 
 #chooseGameBtn{
@@ -139,50 +139,6 @@ a {
     text-align: center;
     font-size: 1.3rem;
     letter-spacing: 0.1rem;
-}
-
-/* Modal */
-.modal-content{
-    position: absolute;
-    top: 2rem;
-    bottom: 2rem;
-    height: calc(100vh - 6rem);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:space-around;
- }
- 
- .modal-content img{
-     height: 60%;
-     width: auto;
- }
- 
- .modal-header h5{
-     text-align: center;
-     width: 100%;
- }
- 
- .modal-body{
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     flex-direction: column;
- }
- 
- .modal-body h5{
-     height: 100%;
-     text-align: center;
-     width: 100%;
-     font-size: 1.2rem;
-     font-weight: 300;
- }
- 
- .modal-content button{
-    width: 100%;
-    padding: 1rem;
-    border-radius: 0 0 0.5rem 0.5rem;
-    font-size: 1.3rem;
 }
 
 #game .card:hover{
@@ -238,6 +194,83 @@ a {
     background-color: rgb(89, 16, 131);
 }
 
+
+/* Lista de persoane */
+
+#choosePlayers{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#choosePlayers h1{
+    font-weight: 600;
+    font-size: 2rem;
+    color: rgb(213, 143, 235);
+    text-shadow: 4px 3px 7px #CC00CE;
+    padding-bottom: 3rem;
+}
+
+#nameInputContainer{
+    width:100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+#personInput{
+    width: 17rem;
+    border-radius: 1.5rem;
+    height: 2.75rem;
+}
+
+#nameInputContainer span i{
+    color: rgb(213, 143, 235);
+    text-shadow: 4px 3px 7px #CC00CE;
+    padding: 0 1rem;
+}
+
+#nameInputContainer span i:hover{
+    color: rgb(231, 207, 230);
+}
+
+#nameInputContainer ::placeholder{
+    padding-left: 1rem;
+}
+
+ul#myPeople{
+    margin: 0;
+    padding: 2rem 0;
+    list-style-type: none;
+    width:100%;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 17rem;
+}
+
+ul#myPeople li{
+    color: #c98bf1;
+    font-size: 1.25rem;
+    padding: 0.3rem 0;
+    font-weight: 500;
+}
+
+ul#myPeople li i{
+    padding-right: 1rem;
+}
+
+#GameBtn{
+    height: 3.5rem;
+}
+
+
 @media screen and (min-width: 768px){
     .card{
         width: 50%;
@@ -264,6 +297,21 @@ a {
     
     p.card-text{
         font-size: 0.9rem;
-        text-align: justify;
+        text-align: center;
     }
+    /* Lista de persoane */
+
+    #choosePlayers h1{
+        font-weight: 600;
+        font-size: 1.75rem;
+        color: rgb(213, 143, 235);
+        text-shadow: 4px 3px 7px #CC00CE;
+        padding-bottom: 3rem;
+        text-align: center;
+    }
+
+    #nameInputContainer{
+        padding: 0 1rem;
+    }
+
 }

@@ -1,5 +1,5 @@
 
-    const people = ["Ana", "Madlena", "Cristi", "Ovidiu", "Oleg", "Iustin"];
+    const people = [];
 
     const questionsQuiz = [
         "Care este cea mai faimoasă persoană pe care ai cunoscut-o vreodată?"

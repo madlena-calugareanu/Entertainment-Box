@@ -33,6 +33,21 @@
         <button type="button" class="btn btn-secondary btn-rounded" id="startGameBtn">Alege jocul</button>
       </div>
 
+      <!-- Adauga participantii -->
+      <div id="choosePlayers" class="d-none">
+        <h1>Adauga numele jucatorilor:</h1>
+        <div id="nameInputContainer">
+          <input type="text" id="personInput" placeholder="Un nume">
+          <span class="addBtn"><i class="fa-solid fa-circle-plus fa-2x" id="addPerson"></i></span>
+        </div>
+        
+        <ul id="myPeople">
+          
+        </ul>
+
+        <button type="button" class="btn btn-secondary btn-rounded" id="GameBtn">Incepe jocul</button>
+      </div>
+      
       <!-- Alege un joc -->
       <div id="chooseGame" class="container-fluid d-none">
         <h1>Alege un joc:</h1>
@@ -41,7 +56,7 @@
           <a href="#game">
             <div class="card-body">
               <h5 class="card-title">Quiz show</h5>
-              <p class="card-text">Răspunde la întrebări și primește puncte de la ceilalți jucători dacă răspunsul a fost bun.</p>
+              <p class="card-text">Răspunde la întrebări.</p>
             </div>
           </a>
         </div>
@@ -49,7 +64,7 @@
           <a href="#game">
             <div class="card-body">
               <h5 class="card-title">Debatable</h5>
-              <p class="card-text">Răspunde cu PRO sau CONTRA, explicându-ți opinia. Dacă opinia ta coincide cu cea a grupului, primești un punct.</p>
+              <p class="card-text">Răspunde cu PRO sau CONTRA, explicându-ți opinia.</p>
             </div>
           </a>
         </div>  
@@ -57,7 +72,7 @@
           <a href="#game">
             <div class="card-body">
               <h5 class="card-title">Cine ar ...</h5>
-              <p class="card-text">Zi cine este cel mai probabil să facă lucrul de pe cartonaș. Dacă opinia ta coincide cu cea a grupului, primești un punct.</p>
+              <p class="card-text">Zi cine este cel mai probabil să facă lucrul de pe cartonaș.</p>
             </div>
           </a>  
         </div>
@@ -65,30 +80,12 @@
           <a href="#game">
             <div class="card-body">
               <h5 class="card-title">Quiz de cultură generală</h5>
-              <p class="card-text">Răspunde la întrebări și primește puncte dacă răspunzi corect.</p>
+              <p class="card-text">Răspunde la ghicitori.</p>
             </div>
           </a>
         </div>
       </div>
 
-      <!-- Modal cu draci-->
-      <div class="modal modal-lg" id="cardModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Să condimentăm jocul!</h5>
-            </div>
-            <div class="modal-body">
-              <h5>
-                Persoana care obține cele mai puține like-uri de la grup, primește o provocare de la acesta. Enjoy!
-              </h5> 
-            </div>
-            <img src="cute-devil.jpg" alt="Cute devil">
-            <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Închide</button>
-          </div>
-        </div>
-      </div>
-      
       <!-- Start  joc -->
       <div id="game" class="d-none">
         <i class="fa-solid fa-list-ul fa-2x" id="menuList"></i>
