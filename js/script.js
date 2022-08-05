@@ -8,10 +8,10 @@ $( document ).ready(function() {
     })
 
     /* Go from add players to choose game */
-    $('#GameBtn').on('click', ()=>{
+    /*$('#GameBtn').on('click', ()=>{
         $('#chooseGame').removeClass('d-none');
         $('#choosePlayers').addClass('d-none');
-    });
+    });*/
 
     /* Go from Players page to game page */
     $('.card').on('click', ()=>{
@@ -127,7 +127,19 @@ $( document ).ready(function() {
 
     $("#addPerson").on("click", ()=>{
         newElement();
-    })
+    });
+
+    function addPeopleAlert(){
+       if (people.length < 2) {
+        alert("Scrie cel putin doua nume!");
+        $('#chooseGame').addClass('d-none');
+        $('#choosePlayers').removeClass('d-none');
+    } else {
+        $('#chooseGame').removeClass('d-none');
+        $('#choosePlayers').addClass('d-none');
+    }
+    }
+    
 
     function newElement() {
         var li = document.createElement("li");
@@ -135,7 +147,7 @@ $( document ).ready(function() {
         var t = document.createTextNode(inputValue);
         li.appendChild(t);
         if (inputValue === '') {
-        alert("Scrie cel putin doua nume!");
+        alert("Scrie numele!");
         } else {
         document.getElementById("myPeople").appendChild(li);
         }
@@ -149,10 +161,17 @@ $( document ).ready(function() {
         li.appendChild(span);
         */
 
+        $('#nameInputContainer').on("keypress", function(event){
+            if(event.keyCode == 13){
+                $("#addPerson").click();
+            }
+        });
+
+        
         $("#GameBtn").on("click", ()=>{
             people.push(inputValue);
-            console.log(people);
-        })
+            addPeopleAlert();
+        });
     }
 
     

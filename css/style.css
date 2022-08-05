@@ -252,6 +252,7 @@ ul#myPeople{
     display: flex;
     flex-direction: column-reverse;
     width: 17rem;
+    flex-wrap: wrap;
 }
 
 ul#myPeople li{
